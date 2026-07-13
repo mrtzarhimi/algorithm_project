@@ -4,6 +4,7 @@
 #include "phase1.h"
 #include "phase2.h"
 #include "phase3.h"
+#include "phase4.h"
 using namespace std;
 
 int main(int argc, char *argv[]) {
@@ -34,5 +35,7 @@ int main(int argc, char *argv[]) {
 
     
     runPhase3();
+
+    runPhase4();
     return 0;
 }
